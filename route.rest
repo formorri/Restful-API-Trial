@@ -1,0 +1,25 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/631170a2218518cd4a04a68a
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+"name": "Lam",
+"subscribedToChannel": "Lam Channel"
+}
+
+###
+DELETE http://localhost:3000/subscribers/63116de76477378180d7cc4a
+
+###
+PATCH http://localhost:3000/subscribers/631172f1049955a09f9abe73
+Content-Type: application/json
+
+{
+    "name": "Other Lsscsddam"
+}
